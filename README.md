@@ -26,7 +26,9 @@ O modelo conceitual do projeto é composto pelas seguintes entidades:
   - Product: representa um produto vendido pela aplicação.
   - Category: representa uma categoria de produtos.
 
+## Diagrama de Classe
 
+![Diagrama de Classe](imgs/ModeloConceitual.png)
 
 
 
