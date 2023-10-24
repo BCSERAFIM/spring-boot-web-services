@@ -19,19 +19,33 @@ Este projeto demonstra a construção de uma aplicação completa, com objetivos
   - Realizar operações CRUD - Create, Retrieve, Update, Delete.
   - Implementar tratamento de exceções.
 
-# Modelo Conceitual
-O modelo conceitual do projeto é composto pelas seguintes entidades:
+# Diagrama de Classe
+
+O Diagrama de Classe do projeto é composto pelas seguintes entidades:
   - User: representa um usuário da aplicação.
   - Orer: representa um pedido feito por um usuário.
+  - Payment: representa o status do pagamento do pedido, utilizando o OrderStatus
   - Product: representa um produto vendido pela aplicação.
   - Category: representa uma categoria de produtos.
-
-## Diagrama de Classe
+  - OrderItem: Vincula o Pedido, produto, preço e quantidade
 
 ![Diagrama de Classe](imgs/ModeloConceitual.png)
 
+## Instância do Domínio
+  - Esta seção aborda a criação e manipulação de instâncias das classes de entidades do sistema, como "Usuário," "Pedido," "Categoria," "Produto," etc.
 
+![Instância do Domínio](imgs/DomainInstance.png)
 
+## Banco de Dados
+  ### User
+    
+  ![User](imgs/bancoDados/usuario.png)
+
+  - Orer: representa um pedido feito por um usuário.
+  - Payment: representa o status do pagamento do pedido, utilizando o OrderStatus
+  - Product: representa um produto vendido pela aplicação.
+  - Category: representa uma categoria de produtos.
+  - OrderItem: Vincula o Pedido, produto, preço e quantidade
 
 
 
