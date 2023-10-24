@@ -37,12 +37,15 @@ O Diagrama de Classe do projeto é composto pelas seguintes entidades:
 ![Instância do Domínio](imgs/DomainInstance.png)
 
 ## Banco de Dados
-  ### User
-    
+  ### User    
   ![User](imgs/bancoDados/usuario.png)
 
-  - Orer: representa um pedido feito por um usuário.
-  - Payment: representa o status do pagamento do pedido, utilizando o OrderStatus
+  ### Orer
+  ![User](imgs/bancoDados/order.png)
+  
+  ### Payment
+  ![User](imgs/bancoDados/payment.png)
+  
   - Product: representa um produto vendido pela aplicação.
   - Category: representa uma categoria de produtos.
   - OrderItem: Vincula o Pedido, produto, preço e quantidade
