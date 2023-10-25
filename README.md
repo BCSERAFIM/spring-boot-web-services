@@ -6,7 +6,8 @@ Projeto web services com Spring Boot e JPA / Hibernate
 
 # Sobre o Projeto
 
-Este projeto é uma implementação de uma API REST com Spring Boot e JPA / Hibernate. Ele implementa as operações CRUD (Create, Retrieve, Update, Delete) para as entidades Usuário, Pedido, Produto e Categoria.
+Este projeto é uma implementação de uma API REST com Spring Boot e JPA / Hibernate.
+Ele implementa as operações CRUD (Create, Retrieve, Update, Delete) para as entidades Usuário, Pedido, Produto e Categoria.
 O projeto também implementa autenticação JWT e tratamento de exceções.
 Este projeto demonstra a construção de uma aplicação completa, com objetivos bem definidos:
 
@@ -18,6 +19,10 @@ Este projeto demonstra a construção de uma aplicação completa, com objetivos
   - Povoar o banco de dados.
   - Realizar operações CRUD - Create, Retrieve, Update, Delete.
   - Implementar tratamento de exceções.
+
+# Tecnologias Utilizadas
+  - **Back end:** Spring Boot, JPA, Hibernate, PostgreSQL
+  - **Front end:** Postman
 
 # Diagrama de Classe
 
@@ -46,14 +51,30 @@ O Diagrama de Classe do projeto é composto pelas seguintes entidades:
   ### Payment
   ![User](imgs/bancoDados/payment.png)
   
-  - Product: representa um produto vendido pela aplicação.
-  - Category: representa uma categoria de produtos.
-  - OrderItem: Vincula o Pedido, produto, preço e quantidade
+  ### Product
+  ![product](imgs/bancoDados/product.png)
+  
+  ### Category
+  ![product](imgs/bancoDados/category.png)
+  
+  ### OrderItem
+  ![OrdetItem](imgs/bancoDados/orderItem.png)
+
+# Postman
+
+### User
+![User](imgs/postman/user.png)
+
+### Orer
+![Order](imgs/postman/order.png)
+
+### Product
+![product](imgs/postman/products.png)
+
+### Category
+![product](imgs/postman/products.png)
 
 
-
-
-
-
-
-
+# Autor
+Bruno Cesar Serafim
+[Linkedin](https://www.linkedin.com/in/bcserafim) - [Site Pessoal](http://bcserafim.infinityfreeapp.com/)
