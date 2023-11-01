@@ -77,6 +77,6 @@ O Diagrama de Classe do projeto é composto pelas seguintes entidades: / The pro
 ![product](imgs/postman/products.png)
 
 
-# Autor
+# Autor / Author
 Bruno Cesar Serafim
 [Linkedin](https://www.linkedin.com/in/bcserafim) - [Site Pessoal](http://bcserafim.infinityfreeapp.com/)
